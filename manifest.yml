@@ -3,5 +3,5 @@ applications:
 - name: dgu-ckan
   host: dgu-ckan
   domain: data.gov.uk
-  buildpack: staticfile_buildpack
+  buildpack: https://github.com/cloudfoundry/nginx-buildpack.git
   memory: 64M
